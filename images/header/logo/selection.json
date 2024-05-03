@@ -1,0 +1,83 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M635.646 758.468l-453.077-283.114M313.893 259.938l453.079 283.116M277.784 832.329l393.974-646.25M821.689 453.298c-97.089-60.669-134.687-108.954-69.027-216.662l-307.445-192.114-393.973 646.246 453.080 283.118 317.364-520.588z"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "stroke": "rgb(253, 146, 34)",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 89.04347826086956
+          }
+        ],
+        "width": 890,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Vector"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "stroke": "rgb(253, 146, 34)",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 89.04347826086956
+        }
+      ],
+      "properties": {
+        "order": 55,
+        "id": 0,
+        "name": "Vector",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 9,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "autoHost": true
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "YTgzMzA0MjVlOCMxNzE0NjgwMTkwI3Bma1BHOFlWTm1rV1Zoc1FsSVFzTFhTMEZ0Rk8wYzNkdmFPZWtRODR6M1ht"
+    }
+  }
+}
