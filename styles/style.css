@@ -1,5 +1,18 @@
+:root {
+  --black: #111;
+  --orange: #fd9222;
+  --violet: #1e1823;
+  --beige: #fcf1e0;
+  --light: #fafafa;
+  --gray: #4c4c4c;
+  --white: #fff;
+  --marker-body: #4c4c4c;
+  --marker-border: #eceded;
+  --font-family: "Montserrat", sans-serif;
+}
+
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.21429;
@@ -7,6 +20,14 @@ body {
   color: #111;
 }
 header {
+}
+button {
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
 a {
@@ -79,7 +100,6 @@ ul {
 .contacts_list {
   display: flex;
   gap: 14px;
-  padding: 20px 0;
 }
 .logo {
   justify-content: center;
@@ -97,11 +117,10 @@ ul {
 .hero {
   border-radius: 30px;
   max-width: 1136px;
-  height: 600px;
   background: rgba(17, 17, 17, 0.4);
   margin: 0 auto;
-  margin-bottom: 50px;
 }
+
 .scroll_icon {
   height: 38px;
   width: 38px;
@@ -208,17 +227,15 @@ ul {
 
 .header_container {
   max-width: 1200px;
-  padding: 0 32px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 24px 32px;
+  margin: 0 auto;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1136px;
   padding-left: 16px;
   padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 .scroll-down {
   display: flex;
@@ -282,12 +299,12 @@ ul {
 .hero_list {
   display: flex;
   flex-direction: column;
+  padding-top: 381px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
 }
 .hero_container {
-  padding-top: 381px;
-
-  padding-left: 32px;
-  padding-right: 32px;
 }
 .benefits {
   background: #1e1823;
@@ -319,9 +336,17 @@ ul {
   max-width: 308px;
 }
 .benefits_container {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.container_section_benefit {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 50px;
+}
+.ingredients_container {
+  padding-bottom: 60px;
 }
 
 .benefits-icon {
@@ -354,12 +379,9 @@ ul {
   margin-right: auto;
 }
 .components {
-  margin-bottom: 120px;
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 32px;
-  row-gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(25% - 32px), 1fr));
+  gap: 32px;
 
   font-weight: 600;
   font-size: 14px;
@@ -368,10 +390,12 @@ ul {
   text-transform: uppercase;
   color: #fff;
 }
+
 .components_list {
   position: relative;
-  width: calc((100% - 160px) / 4);
   padding: 32px 28px;
+  overflow: hidden;
+  align-items: center;
 
   overflow: hidden;
   align-items: center;
@@ -405,6 +429,7 @@ ul {
   text-align: center;
   color: #111;
   margin-top: 120px;
+  margin-bottom: 50px;
 }
 .components_list_arrow:first-child {
   position: absolute;
