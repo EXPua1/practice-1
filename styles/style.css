@@ -235,7 +235,7 @@ ul {
 }
 
 .container {
-  max-width: 1136px;
+  max-width: 1168px;
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
@@ -573,6 +573,7 @@ main {
 .made_image {
   border-radius: 15px;
   max-width: 600px;
+  position: relative;
 
   background: rgba(17, 17, 17, 0.4), url("/images/howmade/image.jpg");
 }
@@ -665,8 +666,8 @@ main {
   color: #111;
 }
 
-.top_sellers {
-  padding-bottom: 60px;
+.section_top {
+  padding: 60px 0;
 }
 .user_review_title {
   font-weight: 600;
@@ -720,7 +721,15 @@ main {
   text-align: center;
   color: rgba(17, 17, 17, 0.7);
 }
-
+.made_image_icon {
+  position: relative;
+}
+.made_image_icon-svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .rev-btn {
   margin-top: 64px;
   font-family: "Montserrat", sans-serif;
