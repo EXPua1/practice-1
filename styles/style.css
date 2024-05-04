@@ -117,8 +117,10 @@ ul {
 .hero {
   border-radius: 30px;
   max-width: 1136px;
-  background: rgba(17, 17, 17, 0.4);
+  background-image: url("../images/hero/hero-bg_desk@2x.jpg");
   margin: 0 auto;
+  background-size: cover;
+  background-position: center;
 }
 
 .scroll_icon {
@@ -150,6 +152,7 @@ ul {
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.03em;
+  color: #fff;
 }
 
 .hero-content {
