@@ -114,7 +114,9 @@ ul {
 .hero {
   border-radius: 30px;
   max-width: 1136px;
-  background-image: url("../images/hero/hero-bg_desk@2x.jpg");
+  background: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+    url("../images/hero/hero-bg_desk@2x.jpg");
+
   margin: 0 auto;
   background-size: cover;
   background-position: center;
@@ -978,6 +980,14 @@ main {
     padding-right: 15px;
     margin: 0 auto;
   }
+  .hero_container {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url("../images/hero/mob-hero/hero-bg_mob@1x.jpg"),
+      /* 1x изображение */ url("../images/hero/mob-hero/hero-bg_mob@2x.jpg"); /* 2x изображение */
+  }
   .header_container {
     padding-top: 20px;
     padding-bottom: 14px;
@@ -1020,7 +1030,6 @@ main {
   }
   .logo {
     font-style: italic;
-
     font-size: 14px;
     line-height: 1.28571;
     letter-spacing: -0.03em;
