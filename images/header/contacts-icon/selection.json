@@ -1,0 +1,207 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M853.333 896v-85.333c0-45.265-17.98-88.674-49.988-120.678-32.004-32.009-75.413-49.988-120.678-49.988h-341.333c-45.264 0-88.673 17.98-120.68 49.988-32.006 32.004-49.987 75.413-49.987 120.678v85.333",
+          "M512 469.333c94.255 0 170.667-76.41 170.667-170.667s-76.412-170.667-170.667-170.667c-94.257 0-170.667 76.41-170.667 170.667s76.41 170.667 170.667 170.667z"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          },
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "user"
+        ],
+        "colorPermutations": {
+          "25025025012522412241253146341255255255177902291": [
+            {},
+            {}
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        },
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        }
+      ],
+      "properties": {
+        "order": 94,
+        "id": 4,
+        "name": "user",
+        "prevSize": 32
+      },
+      "setIdx": 8,
+      "setId": 5,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M170.667 170.667h682.667c46.933 0 85.333 38.4 85.333 85.333v512c0 46.933-38.4 85.333-85.333 85.333h-682.667c-46.933 0-85.333-38.4-85.333-85.333v-512c0-46.933 38.4-85.333 85.333-85.333z",
+          "M938.667 256l-426.667 298.667-426.667-298.667"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          },
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "mail"
+        ],
+        "colorPermutations": {
+          "25025025012522412241253146341255255255177902291": [
+            {},
+            {}
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        },
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        }
+      ],
+      "properties": {
+        "order": 96,
+        "id": 2,
+        "name": "mail",
+        "prevSize": 32
+      },
+      "setIdx": 8,
+      "setId": 5,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M938.671 721.924v128c0.047 11.883-2.389 23.646-7.147 34.53-4.762 10.889-11.742 20.663-20.501 28.698-8.755 8.030-19.093 14.148-30.349 17.954s-23.185 5.222-35.017 4.151c-131.294-14.268-257.408-59.132-368.213-130.987-103.092-65.506-190.494-152.909-256.002-256-72.108-111.309-116.982-238.038-130.987-369.92-1.066-11.799 0.336-23.69 4.117-34.918s9.859-21.544 17.846-30.293c7.987-8.75 17.708-15.74 28.545-20.527s22.551-7.264 34.398-7.276h128c20.706-0.204 40.78 7.129 56.48 20.631s25.955 32.252 28.852 52.756c5.403 40.963 15.422 81.183 29.867 119.893 5.74 15.271 6.983 31.868 3.58 47.824s-11.308 30.602-22.78 42.202l-54.186 54.187c60.738 106.816 149.181 195.26 256.002 256l54.187-54.187c11.597-11.473 26.244-19.379 42.202-22.78 15.953-3.405 32.55-2.159 47.825 3.58 38.707 14.443 78.929 24.465 119.893 29.867 20.723 2.923 39.654 13.363 53.184 29.333s20.719 36.356 20.203 57.28z"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "strokeLinejoin": "round",
+            "strokeLinecap": "round",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 85.33333333333333
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "phone"
+        ],
+        "colorPermutations": {
+          "25025025012522412241253146341255255255177902291": [
+            {}
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 85.33333333333333
+        }
+      ],
+      "properties": {
+        "order": 95,
+        "id": 1,
+        "name": "phone1",
+        "prevSize": 32
+      },
+      "setIdx": 8,
+      "setId": 5,
+      "iconIdx": 3
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "autoHost": true
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "quickUsageToken": {
+      "UntitledProject": "OWQzODc2NTQ3MyMxNzE0ODQ3NTk5I1BleStxeVFoczlXNEZrNWl4NUhkcFgvbXNUaEltTytiNmR1ZHEvTFE3VVJX"
+    }
+  }
+}
