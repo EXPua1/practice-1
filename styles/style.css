@@ -363,7 +363,7 @@ footer a {
   padding: 13px 24px;
   width: 313px;
   height: 52px;
-  background: transparent;
+  background-color: transparent;
   margin-right: 8px;
 }
 .footer_subscribe {
@@ -379,6 +379,11 @@ footer a {
   align-items: center;
   justify-content: center;
   border: none;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fff;
 }
 .hero_list {
   display: flex;
@@ -772,4 +777,20 @@ main {
 .top_sellers_list_item:hover .top_sellers_list_item_image {
   opacity: 1;
   backdrop-filter: blur(15px);
+}
+
+.footer_nav_list_item:hover a {
+  color: #fd9222;
+}
+
+.footer_subscribe_form:hover .footer_input {
+  border-color: #fd9222;
+}
+.footer_subscribe_btn:hover {
+  background: #fcf1e0;
+  color: #fd9222;
+}
+
+.footer_social_list_link:hover .footer_social_list_link_icon use {
+  fill: #fd9222;
 }
