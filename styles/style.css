@@ -213,7 +213,7 @@ ul {
   border: 1px solid #fff;
   border-radius: 100px;
   padding: 14px 40px;
-  width: 183px;
+  min-width: 183px;
   height: 45px;
   color: #fff;
 
@@ -401,6 +401,13 @@ footer a {
 .benefits-list {
   display: flex;
   gap: 88px;
+}
+.scroll-wrapper {
+  display: flex;
+  flex: 1;
+}
+.btns-wrapper {
+  display: flex;
 }
 
 .benefits-list-item {
@@ -975,12 +982,12 @@ main {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
-    max-width: 320px;
+    max-width: 335px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
   }
-  .hero_container {
+  .hero {
     background-image: linear-gradient(
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
@@ -988,6 +995,7 @@ main {
       url("../images/hero/mob-hero/hero-bg_mob@1x.jpg"),
       /* 1x изображение */ url("../images/hero/mob-hero/hero-bg_mob@2x.jpg"); /* 2x изображение */
   }
+
   .header_container {
     padding-top: 20px;
     padding-bottom: 14px;
@@ -1013,6 +1021,35 @@ main {
   }
   .contacts_list {
     display: none;
+  }
+
+  /* HERO SECTION */
+  .hero-content {
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .buy-now-btn {
+    font-weight: 600;
+    font-size: 14px;
+    min-width: 120px;
+    padding: 12px 28px;
+    margin-right: 0;
+    height: 41px;
+  }
+
+  .how-made-link {
+    padding: 12px 28px;
+    min-width: 159px;
+    height: 41px;
+  }
+  .scroll-down-link {
+    margin: 0;
+  }
+  .scroll-wrapper {
+    flex: auto;
+  }
+  .btns-wrapper {
+    gap: 14px;
   }
 }
 
