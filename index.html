@@ -167,9 +167,13 @@
 
 
         </section>
-        <!-- <section class="container">
-            <div class="ingredients_container">
-                <h2 class="ingredient_title">It all adds up to one exceptional taste sensation</h2>
+        <section class="ingredients_container">
+            <div class="container contentt">
+                <div class="title_ingr">
+                    <h2 class="ingredient_title">It all adds up to one exceptional <span
+                            class="howmade-title-color">taste</span> sensation</h2>
+                </div>
+
                 <ul class="components">
                     <li class="components_list">
                         <div class="components_list_arrow">
@@ -250,12 +254,24 @@
 
 
 
-        <section id="howitsmade" class="how-container">
+        <section id="howitsmade" class="container">
             <h2 class="howitsmade_title">How it’s <span class="howmade-title-color">made</span>?</h2>
             <div class="made">
                 <div class="made_image">
+                    <picture>
+                        <source srcset="
+                                    ./images/howmade/image_tab.jpg,
+                                    ./images/howmade/image_tab@2x.jpg
+                                   " media="(max-width: 1167px)">
+                        <source srcset="
+                                    ./images/howmade/image_mob@1x.jpg,
+                                    ./images/howmade/image_mob@2x.jpg
+                                   " media="(max-width: 767px)">
+                        <img class="made_image_icon" src="./images/howmade/image.jpg" alt="chocolatesoft" width="600">
 
-                    <img class="made_image_icon" src="./images/howmade/image.jpg" alt="chocolatesoft" width="600">
+                    </picture>
+
+
                     <svg class="made_image_icon-svg" width="44" height="44g">
                         <use href="./images/header/play/symbol-defs.svg#icon-play"></use>
                     </svg>
@@ -290,7 +306,7 @@
 
 
         </section>
-        <section class="container">
+        <!-- <section class="container">
             <div class="products">
                 <h3 class="product_title">Our <span class="howmade-title-color">products</span> </h3>
                 <ul class="product_list">
@@ -472,7 +488,7 @@
             </div>
 
 
-        </section> -->
+        </section>   -->
 
 
 
