@@ -224,8 +224,6 @@ ul {
   border-color: #fd9222;
   color: #fd9222;
 }
-.how-made-link:focus {
-}
 
 .header_container {
   padding-top: 24px;
@@ -981,11 +979,12 @@ main {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
-    max-width: 320px;
+    max-width: 375px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
   }
+
   .hero {
     background-image: linear-gradient(
         rgba(17, 17, 17, 0.4),
