@@ -352,7 +352,6 @@ footer a {
   letter-spacing: -0.03em;
   color: #fff;
   max-width: 484px;
-  white-space: pre-line;
 }
 
 .footer_input {
@@ -1050,6 +1049,12 @@ main {
   }
   .btns-wrapper {
     gap: 14px;
+  }
+  .hero_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
   }
 }
 
