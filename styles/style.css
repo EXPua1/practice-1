@@ -888,7 +888,7 @@ main {
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 13px;
   padding: 22px 24px 93px 24px;
-  width: 436px;
+  width: 100%;
   height: 137px;
   resize: none;
   padding: 22px 24px;
@@ -1183,6 +1183,23 @@ main {
   }
   .footer_nav {
     flex-direction: column;
+  }
+  .footer {
+    max-width: 375px;
+  }
+  .footer_subscribe_btn {
+    min-width: 120px;
+  }
+
+  /* POPUP */
+  .popup {
+    max-width: 311px;
+  }
+  .review_form_own_checkbox {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33333;
+    letter-spacing: -0.02em;
   }
 }
 
