@@ -1124,6 +1124,66 @@ main {
     text-transform: uppercase;
     color: #111;
   }
+
+  /* SECTION TOP SELLERS */
+  .top_sellers_list {
+    flex-direction: column;
+  }
+  .top_sellers_list_item {
+    width: 100%;
+  }
+  .top_sellers_list_item:nth-child(2),
+  .top_sellers_list_item:nth-child(3) {
+    display: none;
+  }
+  .user_review_list {
+    flex-direction: column;
+  }
+  .user_review_list_item {
+    width: 100%;
+  }
+  .user_review_list_item:nth-child(2),
+  .user_review_list_item:nth-child(3) {
+    display: none;
+  }
+
+  /* FOOTER */
+  .footer_list {
+    flex-wrap: wrap;
+  }
+  .footer_social {
+    flex-direction: column;
+    order: 1;
+    margin-bottom: 33px;
+  }
+  .footer_contacts {
+    margin-bottom: 32px;
+  }
+
+  .footer_title {
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+  }
+  .footer_social_par {
+    text-align: start;
+  }
+  .footer_contacts_par {
+    text-align: start;
+  }
+  .footer_nav_list {
+    flex-direction: column;
+    margin-bottom: 32px;
+    gap: 18px;
+  }
+  .footer_input {
+    width: 207px;
+  }
+  .footer_nav {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1167px) {
