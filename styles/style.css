@@ -981,6 +981,9 @@ main {
   justify-content: center;
   align-items: center;
 }
+/* .mobile-only {
+  display: none;
+} */
 .made_image_source {
   display: block;
   margin: 0 auto;
@@ -1193,13 +1196,45 @@ main {
 
   /* POPUP */
   .popup {
-    max-width: 311px;
+    width: 311px;
+    padding: 32px 32px 32px 24px;
+  }
+  .modal_button {
+    top: 14px;
+    right: 14px;
   }
   .review_form_own_checkbox {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.33333;
     letter-spacing: -0.02em;
+  }
+  .review_form_input {
+    height: 46px;
+  }
+  .review_form_checkbox_label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33333;
+    letter-spacing: -0.02em;
+    color: rgba(64, 64, 64, 0.6);
+  }
+  .private_policy {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33333;
+    letter-spacing: -0.02em;
+  }
+  .popup_descr {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111;
+    margin-bottom: 32px;
   }
 }
 
