@@ -364,6 +364,10 @@ footer a {
 .footer_subscribe {
   display: flex;
 }
+.page_logo_icon {
+  width: 24px;
+  height: 24px;
+}
 .footer_subscribe_btn {
   border-radius: 100px;
   padding: 17px 40px;
@@ -989,15 +993,20 @@ main {
   margin: 0 auto;
   border-radius: 15px;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .container {
     max-width: 375px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
   }
+  .burger {
+    border: none;
+    background-color: transparent;
+  }
 
   .hero {
+    max-width: 335px;
     background-image: linear-gradient(
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)
@@ -1005,7 +1014,18 @@ main {
       url("../images/hero/mob-hero/hero-bg_mob@1x.jpg"),
       /* 1x изображение */ url("../images/hero/mob-hero/hero-bg_mob@2x.jpg"); /* 2x изображение */
   }
-
+  .btns-wrapper {
+    max-width: 120px;
+  }
+  .hero-content {
+    display: block;
+  }
+  .how-made-link {
+    max-width: 159px;
+  }
+  .scroll-wrapper {
+    margin-top: 32px;
+  }
   .header_container {
     padding-top: 20px;
     padding-bottom: 14px;
